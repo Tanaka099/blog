@@ -23,6 +23,7 @@
                     </form>
                 </div>
             @endforeach
+            <a href="">{{ $post->category->name }}</a>
         </div>
         <div class='paginate'>{{ $posts->links() }}</div>
         <script>
